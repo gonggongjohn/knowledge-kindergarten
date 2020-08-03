@@ -2,5 +2,4 @@ site_name: Knowledge Kindergarten
 nav:
     - Home: index.md
     - About: about.md
-theme:
-      name: material
+theme: material
