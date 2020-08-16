@@ -15,7 +15,7 @@
     
     
       
-        <title>一元函数与数列极限 - Knowledge Kindergarten</title>
+        <title>数列极限 - Knowledge Kindergarten</title>
       
     
     
@@ -77,7 +77,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              一元函数与数列极限
+              数列极限
             
           </span>
         </div>
@@ -226,14 +226,14 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        一元函数与数列极限
+        数列极限
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
         </span>
       </label>
     
-    <a href="./" title="一元函数与数列极限" class="md-nav__link md-nav__link--active">
-      一元函数与数列极限
+    <a href="./" title="数列极限" class="md-nav__link md-nav__link--active">
+      数列极限
     </a>
     
       
@@ -260,10 +260,10 @@
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    数列的极限
+    数列极限的概念
   </a>
   
-    <nav class="md-nav" aria-label="数列的极限">
+    <nav class="md-nav" aria-label="数列极限的概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -273,12 +273,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    基本性质
+    数列极限性质
   </a>
   
-    <nav class="md-nav" aria-label="基本性质">
+    <nav class="md-nav" aria-label="数列极限性质">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -309,15 +314,23 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    迫敛性（夹逼准则）
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    数列极限的求法
+  </a>
+  
+    <nav class="md-nav" aria-label="数列极限的求法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    迫敛性（夹逼准则）
+  </a>
   
 </li>
         
@@ -587,10 +600,10 @@
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    数列的极限
+    数列极限的概念
   </a>
   
-    <nav class="md-nav" aria-label="数列的极限">
+    <nav class="md-nav" aria-label="数列极限的概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -600,12 +613,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
-    基本性质
+    数列极限性质
   </a>
   
-    <nav class="md-nav" aria-label="基本性质">
+    <nav class="md-nav" aria-label="数列极限性质">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -636,15 +654,23 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    迫敛性（夹逼准则）
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    数列极限的求法
+  </a>
+  
+    <nav class="md-nav" aria-label="数列极限的求法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    迫敛性（夹逼准则）
+  </a>
   
 </li>
         
@@ -671,34 +697,66 @@
                 
                 <h1 id="_1">数列极限</h1>
 <h2 id="_2">数列</h2>
-<p><strong>数列</strong>是指<strong>将一串数按照一定的顺序依次列出来形成的一个序列</strong>。例如将自然数依次列举出来写成 <span class="arithmatex">\(1,2,3,...,n\)</span>，便形成了一个数列。对于一般的数列，我们通常使用<strong>变量+下标</strong>的方法来表示其中的每一项，下标从1开始按照自然数顺序依次递增，下标越大，代表的项在序列中就越靠后，例如 <span class="arithmatex">\(x_1,x_2,x_3,...,x_n,x_{n+1},...\)</span>。数列可以通过依次列举其中的项来表示，也可以通过指定特定的规律来生成一个序列。例如指定首项和公差，便可以得到一个等差数列；指定首项和公比，便可以得到一个等比数列。</p>
-<h2 id="_3">数列的极限</h2>
-<h3 id="_4">定义</h3>
+<p><strong>数列</strong>是指<strong>将一串数按照一定的顺序依次列出来形成的一个序列</strong>。例如将自然数依次列举出来写成 <span class="arithmatex">\(1,2,3,...,n\)</span>，便形成了一个数列。对于一般的数列，我们通常使用<strong>变量+下标</strong>的方法来表示其中的每一项，下标从 <span class="arithmatex">\(1\)</span> 开始按照自然数顺序依次递增，下标越大，代表的项在序列中就越靠后，例如 <span class="arithmatex">\(x_1,x_2,x_3,...,x_n,x_{n+1},...\)</span>。数列可以通过依次列举其中的项来表示，也可以通过指定特定的规律来生成一个序列。例如指定首项和公差，便可以得到一个<strong>等差数列</strong>；指定首项和公比，便可以得到一个<strong>等比数列</strong>。</p>
+<h2 id="_3">数列极限的概念</h2>
 <p>数列的极限就是考察数列在无穷多项以后的变化趋势，如果一个数列在无穷多项后变化趋于稳定，我们便称一个数列存在极限。例如定义 <span class="arithmatex">\(a_n=\frac{1}{n}\)</span>，则可以发现随着n的增大，<span class="arithmatex">\(a_n\)</span> 的值会越来越靠近0，因此我们便可以认为<strong>“ <span class="arithmatex">\(a_n\)</span> 趋向于0”</strong>。</p>
-<p>下面给出数列极限的精确定义：</p>
+<h3 id="_4">定义</h3>
+<p>一个数列趋向于 <span class="arithmatex">\(A\)</span> 可通俗的理解为<strong>“无限地靠近A”</strong>，但这种叙述方式无法给出一个精确且定量的概念，因此我们需要一个严格的分析定义来消除这种不确定性。这个定义是由<strong>柯西</strong>最先提出，并由<strong>魏尔斯特拉斯</strong>完善而成的：</p>
 <blockquote>
-<p><strong>设 <span class="arithmatex">\(\{a_n\}\)</span> 为一数列，<span class="arithmatex">\(a \in \mathbb{R}\)</span>，若 <span class="arithmatex">\(\forall \varepsilon&gt;0, \exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，有 <span class="arithmatex">\(|a_n-a|&lt;\varepsilon\)</span>，则称 <span class="arithmatex">\(\{a_n\}\)</span> 收敛于 <span class="arithmatex">\(a\)</span>，记为 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a\)</span></strong></p>
+<p><span class="arithmatex">\(Definition\)</span>：<strong>设 <span class="arithmatex">\(\{a_n\}\)</span> 为一数列，<span class="arithmatex">\(a \in \mathbb{R}\)</span>，若 <span class="arithmatex">\(\forall \varepsilon&gt;0, \exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，有 <span class="arithmatex">\(|a_n-a|&lt;\varepsilon\)</span>，则称 <span class="arithmatex">\(\{a_n\}\)</span> 收敛于 <span class="arithmatex">\(a\)</span>，记为 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a\)</span></strong></p>
 </blockquote>
-<h3 id="_5">基本性质</h3>
-<h4 id="_6">唯一性</h4>
+<p>按照该定义，我们便可以严格的证明一个数列的极限是否为一个确切值。</p>
+<blockquote>
+<p><span class="arithmatex">\(Example\)</span>：求证 <span class="arithmatex">\(\lim\limits_{n \to \infty} \frac{1}{n}=0\)</span></p>
+<p><strong>证明：</strong> <span class="arithmatex">\(\forall \varepsilon &gt;0\)</span>，取 <span class="arithmatex">\(N=\frac{1}{\varepsilon}\)</span>，则当 <span class="arithmatex">\(n&gt;N\)</span> 时</p>
+<p><span class="arithmatex">\(\left| \frac{1}{n} - 0\right|&lt;\varepsilon\)</span></p>
+<p><span class="arithmatex">\(\therefore \lim\limits_{n \to \infty} \frac{1}{n}=0\)</span></p>
+</blockquote>
+<h2 id="_5">数列极限性质</h2>
+<p>数列的极限有以下一些基本性质。</p>
+<h3 id="_6">唯一性</h3>
 <blockquote>
 <p><strong>若 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a\)</span> 存在，则 <span class="arithmatex">\(a\)</span> 唯一</strong></p>
 </blockquote>
-<h4 id="_7">有界性</h4>
+<h3 id="_7">有界性</h3>
 <blockquote>
 <p><strong>若 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a\)</span> 存在，则 <span class="arithmatex">\(\{a_n\}\)</span> 有界</strong></p>
 </blockquote>
-<h4 id="_8">保号性</h4>
+<h3 id="_8">保号性</h3>
 <blockquote>
 <p><strong>若 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a&gt;0\)</span>，则 <span class="arithmatex">\(\forall 0&lt;b&lt;a, \exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，<span class="arithmatex">\(a_n&gt;b\)</span></strong></p>
 </blockquote>
-<h4 id="_9">保不等式性</h4>
+<h3 id="_9">保不等式性</h3>
 <blockquote>
 <p><strong>若 <span class="arithmatex">\(\lim\limits_{n \to \infty}a_n=a,\lim\limits_{n \to \infty}b_n=b\)</span>， <span class="arithmatex">\(\exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，<span class="arithmatex">\(a_n \geq b_n\)</span>，则 <span class="arithmatex">\(a \geq b\)</span></strong></p>
 </blockquote>
-<h4 id="_10">迫敛性（夹逼准则）</h4>
+<h2 id="_10">数列极限的求法</h2>
+<p>对于一般的数列，我们可以通过初等变形以及一些基本的极限结论得到其极限值。</p>
 <blockquote>
-<p><strong>设 <span class="arithmatex">\(\{a_n\}\{b_n\}\{c_n\}\)</span> 三个数列，<span class="arithmatex">\(\lim\limits_{n \to \infty} a_n=\lim\limits_{n \to \infty}b_n=a\)</span>，若 <span class="arithmatex">\(\exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，<span class="arithmatex">\(a_n \leq c_n \leq b_n\)</span>，则 <span class="arithmatex">\(\lim\limits_{n \to \infty}c_n=a\)</span></strong></p>
+<p><span class="arithmatex">\(Example\)</span>：求 <span class="arithmatex">\(\lim\limits_{n \to \infty} \sqrt{n+1} - \sqrt{n}\)</span></p>
+<p><strong>解：</strong><span class="arithmatex">\(\sqrt{n+1} - \sqrt{n} = \frac{1}{\sqrt{n+1}+\sqrt{n}}\)</span></p>
+<p><span class="arithmatex">\(\because \lim\limits_{n \to \infty} \frac{1}{\sqrt{n+1}+\sqrt{n}} = 0\)</span></p>
+<p><span class="arithmatex">\(\therefore \lim\limits_{n \to \infty} \sqrt{n+1} - \sqrt{n}=0\)</span></p>
+</blockquote>
+<h3 id="_11">迫敛性（夹逼准则）</h3>
+<p>对于一些较为复杂的极限，我们往往无法直接求出其极限值。但有时如果我们能对数列进行适当的放缩，并能求出放缩后数列的极限值，也能得到该数列的极限值。这建立在如下定理的基础之上：</p>
+<blockquote>
+<p><span class="arithmatex">\(Theorem\)</span>：<strong>设 <span class="arithmatex">\(\{a_n\}\{b_n\}\{c_n\}\)</span> 三个数列，<span class="arithmatex">\(\lim\limits_{n \to \infty} a_n=\lim\limits_{n \to \infty}b_n=a\)</span>，若 <span class="arithmatex">\(\exists N&gt;0\)</span>，使得当 <span class="arithmatex">\(n&gt;N\)</span> 时，<span class="arithmatex">\(a_n \leq c_n \leq b_n\)</span>，则 <span class="arithmatex">\(\lim\limits_{n \to \infty}c_n=a\)</span></strong></p>
+<p><strong>证明：</strong><span class="arithmatex">\(\because \lim\limits_{n \to \infty} a_n=\lim\limits_{n \to \infty}b_n=a\)</span></p>
+<p><span class="arithmatex">\(\therefore \forall \varepsilon &gt; 0\)</span></p>
+<p><span class="arithmatex">\(\exists N_1&gt;0\)</span>，使得当 <span class="arithmatex">\(n &gt; N_1\)</span> 时，<span class="arithmatex">\(a_n&gt;a-\varepsilon\)</span></p>
+<p><span class="arithmatex">\(\exists N_2&gt;0\)</span>，使得当 <span class="arithmatex">\(n &gt; N_2\)</span> 时，<span class="arithmatex">\(a_n&gt;a-\varepsilon\)</span> </p>
+<p>取 <span class="arithmatex">\(N_0=\max \{N_1,N_2\}\)</span>，则当 <span class="arithmatex">\(n&gt;N_0时\)</span></p>
+<p><span class="arithmatex">\(a-\varepsilon &lt; a_n \leq c_n \leq b_n &lt; a+\varepsilon\)</span></p>
+<p>即 <span class="arithmatex">\(|c_n-a|&lt;\varepsilon\)</span></p>
+<p><span class="arithmatex">\(\therefore \lim\limits_{n \to \infty}c_n=a\)</span></p>
+</blockquote>
+<p>运用该定理，我们可以求解一些较为复杂的极限。</p>
+<blockquote>
+<p><span class="arithmatex">\(Example\)</span>：求 <span class="arithmatex">\(\lim\limits_{n \to \infty}\sqrt[n]{2^n+3^n+4^n+5^n}\)</span></p>
+<p>解：<span class="arithmatex">\(5 \leq \sqrt[n]{2^n+3^n+4^n+5^n} \leq \sqrt[n]{4} \cdot 5\)</span></p>
+<p><span class="arithmatex">\(\because \lim\limits_{n \to \infty}\sqrt[n]{4} \cdot 5 = 5\)</span></p>
+<p><span class="arithmatex">\(\therefore \lim\limits_{n \to \infty}\sqrt[n]{2^n+3^n+4^n+5^n}=5\)</span></p>
 </blockquote>
                 
               
