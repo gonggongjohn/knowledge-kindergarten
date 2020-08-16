@@ -15,7 +15,7 @@
     
     
       
-        <title>OpenGL基础 - Knowledge Kindergarten</title>
+        <title>OpenGL基本概念 - Knowledge Kindergarten</title>
       
     
     
@@ -48,6 +48,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#opengl" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -72,7 +77,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              OpenGL基础
+              OpenGL基本概念
             
           </span>
         </div>
@@ -415,10 +420,154 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
     
-    <a href="./" title="OpenGL基础" class="md-nav__link md-nav__link--active">
-      OpenGL基础
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        OpenGL基本概念
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="OpenGL基本概念" class="md-nav__link md-nav__link--active">
+      OpenGL基本概念
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    点，线，面
+  </a>
+  
+    <nav class="md-nav" aria-label="点，线，面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    点
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    多边形
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    齐次坐标
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    坐标变换
+  </a>
+  
+    <nav class="md-nav" aria-label="坐标变换">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    顶点变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    法线变换（平面变换）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    变换矩阵
+  </a>
+  
+    <nav class="md-nav" aria-label="变换矩阵">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    平移变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    缩放变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    旋转变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    透视投影
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    正投影
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -452,6 +601,147 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    点，线，面
+  </a>
+  
+    <nav class="md-nav" aria-label="点，线，面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    点
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    多边形
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    齐次坐标
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    坐标变换
+  </a>
+  
+    <nav class="md-nav" aria-label="坐标变换">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    顶点变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    法线变换（平面变换）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    变换矩阵
+  </a>
+  
+    <nav class="md-nav" aria-label="变换矩阵">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    平移变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    缩放变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    旋转变换
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    透视投影
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    正投影
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -461,16 +751,85 @@
                   
                 
                 
-                  <h1>OpenGL基础</h1>
-                
-                <div class="arithmatex">\[
-P=\begin{bmatrix}
+                <h1 id="opengl">OpenGL基本概念</h1>
+<h2 id="_1">点，线，面</h2>
+<p>你可能对<strong>点、线、面</strong>这些术语在<strong>数学</strong>中的含义已经有了一个很好的理解。在OpenGL中也有这些基本概念，他们所对应的含义和在数学中<strong>类似，但又不完全相同。</strong>
+一种差异来自于<strong>计算机存储和计算能力的局限性</strong>。对计算机而言，浮点计算的精度都是有限的，并且具有<strong>取舍误差</strong>。因此，在OpenGL中描述点，线和面的坐标时也会遭受这样的问题。
+另一个更重要的区别来自于光栅图形显示的局限性。在显示器上，最小的可显示单位是<strong>像素</strong>，尽管像素的宽度可能小于 <span class="arithmatex">\(\frac{1}{100}\)</span> 英寸，但它们仍远大于数学中<strong>无穷小</strong>（对于点）和<strong>无穷细</strong>（对于线）的概念。</p>
+<h3 id="_2">点</h3>
+<p>在OpenGL中，点也被称为 <strong>“顶点（Vertex）”</strong> 。一个顶点由一组<strong>四维</strong>浮点型坐标 <span class="arithmatex">\((x,y,z,w)\)</span> 表示。<strong>在一般情况下，<span class="arithmatex">\(w\)</span> 会被自动设为 <span class="arithmatex">\(1\)</span>，用户只需要操作其中的前三个数值</strong>，当 <span class="arithmatex">\(w\)</span> 不为 <span class="arithmatex">\(1\)</span> 时，这个点代表一个<strong>欧几里得空间</strong>中对应坐标为 <span class="arithmatex">\((\frac{x}{w},\frac{y}{w},\frac{z}{w},w)\)</span> 的三维点。这么做的原因将很快在下文中得到解释。</p>
+<h3 id="_3">线</h3>
+<p>在OpenGL中，“线”是指<strong>线段</strong>，而不是数学上能够无限延伸的“直线”或者“射线”。在OpenGL中，一根线是由其在两端的顶点所指定的。</p>
+<h3 id="_4">多边形</h3>
+<p>在OpenGL中，多边形是由<strong>一组线段闭合包围成环所组成的</strong>，其中线段由其端点处的顶点指定。
+在数学中，多边形可能会十分复杂，因此OpenGL对多边形进行了一些严格的限制。</p>
+<ol>
+<li>OpenGL多边形的<strong>边缘不能相交</strong>（数学家将满足此条件的多边形称为<strong>简单多边形</strong>）。</li>
+<li>OpenGL多边形必须是<strong>凸多边形</strong>，即<strong>如果给定多边形内部的任何两个点，连接它们的线段也应当位于该多边形的内部</strong>。</li>
+<li>OpenGL多边形所围成的区域必须是<strong>单连通区域</strong>，即多边形内部不能有“洞”。</li>
+</ol>
+<h2 id="_5">齐次坐标</h2>
+<p>用户通常处理的都是二维和三维的顶点，但实际上，它们在OpenGL内部都被视为<strong>包含四个坐标的三维齐次顶点</strong>。如果一个四维向量 <span class="arithmatex">\((x,y,z,w)\)</span> 中的<strong>至少一个元素非零</strong>，则这个向量表示一个<strong>齐次顶点</strong>。<strong><span class="arithmatex">\(w\)</span> 可以理解为一个比例系数，用于对三维坐标进行缩放</strong>。若<strong>实数 <span class="arithmatex">\(a\)</span> 不为零</strong>，则 <span class="arithmatex">\((x,y,z,w)\)</span> 和 <span class="arithmatex">\((ax,ay,az,aw)\)</span> 表示一个相同的齐次顶点 <strong>（因为 <span class="arithmatex">\(\frac{x}{w}=\frac{ax}{aw},\frac{y}{w}=\frac{ay}{aw},\frac{z}{w}=\frac{az}{aw}\)</span>）</strong> 。一个<strong>三维欧几里德空间</strong>中的点 <span class="arithmatex">\((x,y,z)\)</span> 对应一个 <span class="arithmatex">\((x,y,z,1.0)\)</span> 的齐次顶点，而一个<strong>二维欧几里得空间</strong>中的点 <span class="arithmatex">\((x,y)\)</span> 对应一个 <span class="arithmatex">\((x,y,0.0,1.0)\)</span> 的齐次顶点。</p>
+<p>当 <span class="arithmatex">\(w = 0.0\)</span> 时，齐次坐标不对应于任何一个欧氏空间中的点，而是对应于一个理想化的 <strong>“无穷大点”</strong> 。要想理解这一概念的意义并不困难，例如若要考虑点 <span class="arithmatex">\((1,2,0,0)\)</span> 的意义，只需要注意到当 <strong> <span class="arithmatex">\(w\)</span> 逐渐趋向于0时</strong> （例如当 <span class="arithmatex">\(w=1,0.01,0.001\)</span> 时分别对应欧氏空间中的$ (1,2),(100,200),(10000,20000)$），这一点沿直线 <span class="arithmatex">\(y=2x\)</span> 逐渐<strong>趋向于无穷大</strong>，因此可将 <span class="arithmatex">\((1,2,0,0)\)</span> 视为直线 $ y=2x$ 方向上的<strong>无穷远点</strong>。</p>
+<p><strong>PS：OpenGL可能无法正确处理 <span class="arithmatex">\(w&lt;0\)</span> 的齐次坐标。为确保你的代码可在OpenGL上正确运行，请仅使用非负 <span class="arithmatex">\(w\)</span> 值。</strong></p>
+<h2 id="_6">坐标变换</h2>
+<h3 id="_7">顶点变换</h3>
+<p>如果要对一个顶点进行某些<strong>线性变换操作</strong>（如旋转，平移，缩放，投影等），可以通过引入一个<strong>同阶数的方阵</strong>（对于一个齐次坐标则需要引入一个4<em>4的方阵）并通过</em><em>矩阵乘法</em>*来完成。即如果 <span class="arithmatex">\(v\)</span> 代表一个齐次坐标顶点，<span class="arithmatex">\(M\)</span> 为一个特定的4阶变换方阵，则 <span class="arithmatex">\(Mv\)</span> 的结果就代表顶点  <span class="arithmatex">\(v\)</span> 在变换 <span class="arithmatex">\(M\)</span> 下的象。</p>
+<p><strong>PS：变换矩阵 <span class="arithmatex">\(M\)</span> 通常要求为非奇异矩阵，即M可逆。尽管这不是硬性规定，但如果 <span class="arithmatex">\(M\)</span> 为奇异矩阵，其变换结果可能会出现问题。</strong></p>
+<h3 id="_8">法线变换（平面变换）</h3>
+<p>由<strong>解析几何</strong>知识可知，一条<strong>法线</strong>对应<strong>唯一一个垂直于该法线的平面</strong>。在OpenGL中，法线的变换方式与顶点的变换方式略有不同。</p>
+<p>设<strong>齐次坐标下</strong>平面方程为 <span class="arithmatex">\(ax+by+cz+dw=0\)</span>，则行向量 <span class="arithmatex">\((a,b,c,d)\)</span> 可以<strong>唯一表示一张齐次平面</strong>，其中 <span class="arithmatex">\(a,b,c,d\)</span> 中的至少一个非零。如果 <span class="arithmatex">\(q\)</span> 为非零实数，则 <span class="arithmatex">\((a,b,c,d)\)</span> 和 <span class="arithmatex">\((qa,qb,qc,qd)\)</span> 表示同一平面。若 <span class="arithmatex">\(ax_0+by_0+cz_0+dw_0=0\)</span>，则点 <span class="arithmatex">\((x_0,y_0,z_0,w_0)^T\)</span> 在平面 <span class="arithmatex">\((a,b,c,d)\)</span> 上。</p>
+<p>若 <span class="arithmatex">\(p\)</span> 为一齐次平面，<span class="arithmatex">\(v\)</span> 为一齐次顶点，则 <strong><span class="arithmatex">\(v\)</span> 位于平面 <span class="arithmatex">\(p\)</span> 上</strong> 可表示为 <span class="arithmatex">\(pv=0\)</span>。如果 <span class="arithmatex">\(M\)</span> 是一个<strong>非奇异变换矩阵</strong>，则 <span class="arithmatex">\(pv=0\)</span> 等效于 <span class="arithmatex">\(pM^{-1}Mv=0\)</span>，即 <span class="arithmatex">\(Mv\)</span> 在平面 <span class="arithmatex">\(pM^{-1}\)</span> 上。因此，<span class="arithmatex">\(pM^{-1}\)</span> 是平面 <span class="arithmatex">\(p\)</span> 在变换 <span class="arithmatex">\(M\)</span> 下的象。</p>
+<h2 id="_9">变换矩阵</h2>
+<p>下面列出了一些OpenGL中常用的变换操作及其对应的变换矩阵：</p>
+<h3 id="_10">平移变换</h3>
+<p>对于一个平移指令 <strong>（例如<code>glTranslate(x,y,z)</code>）</strong> ，OpenGL会生成一个对应的平移矩阵T：</p>
+<p><span class="arithmatex">\(T=\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp;x \\ 
+0 &amp; 1 &amp; 0 &amp;y \\ 
+0 &amp; 0 &amp; 1 &amp;z \\ 
+0 &amp; 0 &amp; 0 &amp;1 
+\end{bmatrix}\)</span></p>
+<p>在一个齐次坐标系中，若记一点的原坐标为 <span class="arithmatex">\(A=(x_0,y_0,z_0,w)^T\)</span>，则其经平移变换 <span class="arithmatex">\(T\)</span> 后的坐标则为 <span class="arithmatex">\(A'=TA=(x_0+x,y_0+y,z_0+z,w)^T\)</span></p>
+<h3 id="_11">缩放变换</h3>
+<p>对于一个缩放指令 <strong>（例如<code>glScale(x,y,z)</code>）</strong> ，OpenGL会生成一个对应的缩放矩阵S：</p>
+<p><span class="arithmatex">\(S=\begin{bmatrix}
+x &amp; 0 &amp; 0 &amp;0 \\ 
+0 &amp; y &amp; 0 &amp;0 \\ 
+0 &amp; 0 &amp; z &amp;0 \\ 
+0 &amp; 0 &amp; 0 &amp;1 
+\end{bmatrix}\)</span></p>
+<p>在一个齐次坐标系中，若记一点的原坐标为 <span class="arithmatex">\(A=(x_0,y_0,z_0,w)^T\)</span>，则其经缩放变换 <span class="arithmatex">\(S\)</span> 后的坐标则为 <span class="arithmatex">\(A'=SA=(x \cdot x_0,y \cdot y_0,z \cdot z_0,w)^T\)</span></p>
+<h3 id="_12">旋转变换</h3>
+<p>对于一个旋转指令 <strong>（例如<code>glRotate(a,x,y,z)</code>，参数中a为旋转角度，(x,y,z)为旋转轴向量（右手原则））</strong> ，OpenGL会按如下步骤生成一个对应的旋转矩阵R：</p>
+<ol>
+<li>取 <span class="arithmatex">\(v=(x,y,z)^T\)</span> 并求出其单位向量 <span class="arithmatex">\(u=\frac{v}{||v||}=(x',y',z')^T\)</span> <strong>（||v||为v的模）</strong></li>
+<li>令<span class="arithmatex">\(S=\begin{bmatrix}
+ 0 &amp; -z' &amp; y' \\ 
+z' &amp; 0 &amp; -x' \\ 
+-y' &amp; x' &amp; 0 
+\end{bmatrix}\)</span>，<span class="arithmatex">\(M=uu^T+(cosa)(I-uu^T)+(sina)S\)</span></li>
+<li>易见 <span class="arithmatex">\(M\)</span> 为一个3*3矩阵，设 <span class="arithmatex">\(M=\{m_{ij}\}\)</span>，则<span class="arithmatex">\(R=\begin{bmatrix}
+ m_{11} &amp;m_{12} &amp; m_{13} &amp; 0 \\ 
+m_{21} &amp; m_{22} &amp; m_{23} &amp;0 \\ m_{31} &amp; m_{32} &amp; m_{33} &amp;0 \\ 0 &amp; 0 &amp; 0 &amp;1 
+\end{bmatrix}\)</span></li>
+</ol>
+<h3 id="_13">透视投影</h3>
+<p>对于一个透视投影指令 <strong>（例如<code>glFrustum(l,r,b,t,n,f)</code>）</strong> ，OpenGL会生成一个对应的变换矩阵P：</p>
+<p><span class="arithmatex">\(P=\begin{bmatrix}
+\frac{2n}{r-l} &amp; 0 &amp; \frac{r+l}{r-l} &amp;0 \\ 
+0 &amp; \frac{2n}{t-b} &amp; \frac{t+b}{t-b} &amp;0 \\ 
+0 &amp; 0 &amp; \frac{-(f+n)}{f-n} &amp;\frac{-2fn}{f-n} \\ 
+0 &amp; 0 &amp; -1 &amp;0 
+\end{bmatrix}\)</span></p>
+<h3 id="_14">正投影</h3>
+<p>对于一个正投影指令 <strong>（例如<code>glOrtho(l,r,b,t,n,f)</code>）</strong> ，OpenGL会生成一个对应的变换矩阵P：</p>
+<p><span class="arithmatex">\(P=\begin{bmatrix}
 \frac{2}{r-l} &amp; 0 &amp; 0 &amp;\frac{r+l}{r-l} \\ 
 0 &amp; \frac{2}{t-b} &amp; 0 &amp;\frac{t+b}{t-b} \\ 
 0 &amp; 0 &amp; \frac{-2}{f-n} &amp;\frac{f+n}{f-n} \\ 
 0 &amp; 0 &amp; 0 &amp;1 
-\end{bmatrix}
-\]</div>
+\end{bmatrix}\)</span></p>
                 
               
               
