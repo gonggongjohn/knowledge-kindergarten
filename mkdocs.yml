@@ -3,9 +3,16 @@ nav:
     - 首页: index.md
     - 数学基础:
         - 微积分:
-            - 一元函数与数列极限: math/calculus/limit.md
-        - 线性代数:
-            - 矩阵: math/linear_algebra/01.md
+            - 数列极限: math/calculus/sequence-limit.md
+        - 代数:
+            - 集合: math/algebra/set.md
+        - 数理逻辑:
+            - 符号: math/logic/symbol.md
+    - 算法:
+        - 散列表/哈希表: algorithm/hash.md
+    - 计算机图形学:
+        - OpenGL:
+            - OpenGL基本概念: graphic/opengl/concept.md
     - 关于我们: about.md
 theme: 
     name: material
