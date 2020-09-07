@@ -23,7 +23,7 @@
 
 通常来说，**集合**使用大写字母来表示，**集合的元素**使用小写字母来表示。集合与元素之间有如下的二元对立关系：
 
-> 若 $a$ 为 $S$ 中的一个元素，则称 $a$ **包含于** $S$ ，记为 $a \in S$ ；若 $a$ 不为 $S$ 中的任一元素，则称 $a$ **不包含于** $S$ ，记为 $a \notin S$
+> $Definition:$ 若 $a$ 为 $S$ 中的一个元素，则称 $a$ **包含于** $S$ ，记为 $a \in S$ ；若 $a$ 不为 $S$ 中的任一元素，则称 $a$ **不包含于** $S$ ，记为 $a \notin S$
 
 ## 集合间的关系
 
@@ -31,35 +31,35 @@
 
 ### 子集
 
-> 设 $S,T$ 为两个集合，若 $\forall a \in S$ ，成立 $a \in T$ ，则称 $S$ 是 $T$ 的一个**子集**，记为 $S \subset T$
+> $Definition:$ 设 $S,T$ 为两个集合，若 $\forall a \in S$ ，成立 $a \in T$ ，则称 $S$ 是 $T$ 的一个**子集**，记为 $S \subset T$
 
 **例如**：$\{1,2,3\} \subset \{1,2,3,4,5\}$；有理数集 $\mathbb{Q}$ $\subset$ 实数集 $\mathbb{R}$；空集 $\varnothing$ $\subset$ 任意集合
 
 ### 相等
 
-> 设 $S,T$ 为两个集合，若 $S \subset T, T \subset S$ ，则称 $S$ 与 $T$ **相等**，记为 $S=T$
+> $Definition:$ 设 $S,T$ 为两个集合，若 $S \subset T, T \subset S$ ，则称 $S$ 与 $T$ **相等**，记为 $S=T$
 
 ### 交集与并集
 
-> 设 $S,T$ 为两个集合，将集合 $\{ x \big| x \in S \land x \in T \}$ 称为 $S$ 与 $T$ 的**交集**，记为 $S \cap T$ ；将集合 $\{ x \big| x \in S \lor x \in T \}$ 称为 $S$ 与 $T$ 的**并集**，记为 $S \cup T$
+> $Definition:$ 设 $S,T$ 为两个集合，将集合 $\{ x \big| x \in S \land x \in T \}$ 称为 $S$ 与 $T$ 的**交集**，记为 $S \cap T$ ；将集合 $\{ x \big| x \in S \lor x \in T \}$ 称为 $S$ 与 $T$ 的**并集**，记为 $S \cup T$
 
 **例如**：$\{1,2,3,4\} \cap \{2,3,4,5\} = \{2,3,4\}$；$\mathbb{N} \cup \mathbb{R} = \mathbb{R}$
 
 ### 差集
 
-> 设 $S,T$ 为两个集合，将集合 $\{ x \big| x \in S \land x \notin T \}$ 称为 $S$ 与 $T$ 的**差集**，记为 $S \setminus T$
+> $Definition:$ 设 $S,T$ 为两个集合，将集合 $\{ x \big| x \in S \land x \notin T \}$ 称为 $S$ 与 $T$ 的**差集**，记为 $S \setminus T$
 
 **例如**：$\{1,2,3,4,5\} \setminus \{2,3\} = \{1,4,5\}$
 
 ### 补集
 
-> 设 $S,T$ 为两个集合，若 $T \subset S$ ，则将集合 $S \setminus T$ 称为 $T$ 在 $S$ 中的的**补集**，记为 $\complement_S{T}$
+> $Definition:$ 设 $S,T$ 为两个集合，若 $T \subset S$ ，则将集合 $S \setminus T$ 称为 $T$ 在 $S$ 中的的**补集**，记为 $\complement_S{T}$
 
 **例如**：设 $S=\{1,2,3,4,5\}, T=\{2,3,4\}$，则 $\complement_S{T}=\{1,5\}$
 
 ## 集合的度量
 
-> 设 $S$ 为一个集合，则将 $S$ 中元素的个数记为 $S$ 的**基数**，记为 $CardS$ 或 $|S|$
+> $Definition:$ 设 $S$ 为一个集合，则将 $S$ 中元素的个数记为 $S$ 的**基数**，记为 $CardS$ 或 $|S|$
 
 当 $|S|$ 为一有限数时，称集合 $S$ 为一个**有限集**；当 $|S|=+\infty$ 时，称集合 $S$ 为一个**无限集**。
 
@@ -69,6 +69,6 @@
 
 由此得到启发，对于一般的集合，我们同样可以通过将他们进行关联来刻画更加丰富的信息，这便引出了笛卡儿积的概念。
 
-> 设 $S,T$ 为两个集合，则将集合 $\{(x,y) \big| x \in S, y \in T\}$ 称为 $S$ 与 $T$ 的**笛卡尔积** ，记为 $S \times T$ ；将 $\underbrace{X \times X \times ... \times X}_{k个}$ 简记为 $X^k$
+> $Definition:$ 设 $S,T$ 为两个集合，则将集合 $\{(x,y) \big| x \in S, y \in T\}$ 称为 $S$ 与 $T$ 的**笛卡尔积** ，记为 $S \times T$ ；将 $\underbrace{X \times X \times ... \times X}_{k个}$ 简记为 $X^k$
 
 **例如**：一个**n维欧氏空间**可表示为 $\mathbb{R}^n$

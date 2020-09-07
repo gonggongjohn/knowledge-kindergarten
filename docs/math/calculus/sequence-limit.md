@@ -71,7 +71,7 @@
 >
 > $\exists N_1>0$，使得当 $n > N_1$ 时，$a_n>a-\varepsilon$
 >
-> $\exists N_2>0$，使得当 $n > N_2$ 时，$a_n>a-\varepsilon$ 
+> $\exists N_2>0$，使得当 $n > N_2$ 时，$b_n<a+\varepsilon$ 
 >
 > 取 $N_0=\max \{N_1,N_2\}$，则当 $n>N_0时$
 >
